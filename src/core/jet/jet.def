@@ -1,0 +1,16 @@
+LIBRARY   jet
+EXPORTS
+    uv_close	
+    uv_default_loop
+	uv_listen
+	uv_accept
+	uv_read_start
+	uv_read_stop
+	uv_write
+	uv_tcp_init
+	uv_tcp_bind
+	uv_tcp_connect
+	uv_ip4_addr
+	uv_now
+	
+		

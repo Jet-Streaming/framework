@@ -1,0 +1,861 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_ONCE	internal.h	55;"	d
+ADDR_SIZE	aix.c	1047;"	d	file:
+ADDR_SIZE	aix.c	1117;"	d	file:
+CAST	linux-inotify.c	45;"	d	file:
+CLOCK_BOOTTIME	linux-core.c	68;"	d	file:
+CLOCK_MONOTONIC_COARSE	linux-core.c	60;"	d	file:
+CPUSTATES	freebsd.c	48;"	d	file:
+CP_IDLE	freebsd.c	54;"	d	file:
+CP_INTR	freebsd.c	55;"	d	file:
+CP_NICE	freebsd.c	52;"	d	file:
+CP_SYS	freebsd.c	53;"	d	file:
+CP_USER	freebsd.c	51;"	d	file:
+EQ	aix.c	65;"	d	file:
+F_DUP2FD_CLOEXEC	core.c	70;"	d	file:
+HAVE_IFADDRS_H	linux-core.c	39;"	d	file:
+HAVE_IFADDRS_H	linux-core.c	43;"	d	file:
+HAVE_PREADV	fs.c	52;"	d	file:
+HAVE_PREADV	fs.c	54;"	d	file:
+INIT	fs.c	61;"	d	file:
+IPV6_ADD_MEMBERSHIP	udp.c	32;"	d	file:
+IPV6_DROP_MEMBERSHIP	udp.c	36;"	d	file:
+MSAN_ACTIVE	linux-syscalls.c	31;"	d	file:
+NANOSEC	freebsd.c	44;"	d	file:
+NANOSEC	freebsd.c	45;"	d	file:
+NANOSEC	netbsd.c	46;"	d	file:
+NANOSEC	netbsd.c	47;"	d	file:
+NANOSEC	openbsd.c	43;"	d	file:
+NANOSEC	openbsd.c	44;"	d	file:
+NANOSEC	thread.c	31;"	d	file:
+NANOSEC	thread.c	32;"	d	file:
+NetlinkList	android-ifaddrs.c	/^typedef struct NetlinkList$/;"	s	file:
+NetlinkList	android-ifaddrs.c	/^} NetlinkList;$/;"	t	typeref:struct:NetlinkList	file:
+O_CLOEXEC	internal.h	126;"	d
+PATH	fs.c	76;"	d	file:
+PATH2	fs.c	91;"	d	file:
+PORT_DELETED	sunos.c	49;"	d	file:
+PORT_FIRED	sunos.c	46;"	d	file:
+PORT_LOADED	sunos.c	48;"	d	file:
+PORT_UNUSED	sunos.c	47;"	d	file:
+POST	fs.c	113;"	d	file:
+PROCFS_FILE_OFFSET_BITS_HACK	sunos.c	52;"	d	file:
+PROCFS_FILE_OFFSET_BITS_HACK	sunos.c	55;"	d	file:
+RDWR_BUF_SIZE	aix.c	64;"	d	file:
+ROUND_UP	internal.h	58;"	d
+SAVE_ERRNO	internal.h	68;"	d
+UNREACHABLE	internal.h	61;"	d
+UV_ATOMIC_OPS_H_	atomic-ops.h	17;"	d
+UV_CLOCK_FAST	internal.h	/^  UV_CLOCK_FAST = 1      \/* Use the fastest clock with <= 1ms granularity. *\/$/;"	e	enum:__anon4
+UV_CLOCK_PRECISE	internal.h	/^  UV_CLOCK_PRECISE = 0,  \/* Use the highest resolution clock available. *\/$/;"	e	enum:__anon4
+UV_CLOSED	internal.h	/^  UV_CLOSED               = 0x02,   \/* close(2) finished. *\/$/;"	e	enum:__anon2
+UV_CLOSING	internal.h	/^  UV_CLOSING              = 0x01,   \/* uv_close() called but not finished. *\/$/;"	e	enum:__anon2
+UV_DEC_BACKLOG	stream.c	503;"	d	file:
+UV_DEC_BACKLOG	stream.c	505;"	d	file:
+UV_DEC_BACKLOG	stream.c	568;"	d	file:
+UV_DESTRUCTOR	internal.h	84;"	d
+UV_DESTRUCTOR	internal.h	87;"	d
+UV_DESTRUCTOR	proctitle.c	/^UV_DESTRUCTOR(static void free_args_mem(void)) {$/;"	f
+UV_HANDLE_IPV6	internal.h	/^  UV_HANDLE_IPV6          = 0x10000, \/* Handle is bound to a IPv6 socket. *\/$/;"	e	enum:__anon2
+UV_LINUX_SYSCALL_H_	linux-syscalls.h	23;"	d
+UV_LOOP_BLOCK_SIGPROF	internal.h	/^  UV_LOOP_BLOCK_SIGPROF = 1$/;"	e	enum:__anon3
+UV_LOOP_WATCHER_DEFINE	loop-watcher.c	25;"	d	file:
+UV_SPINLOCK_H_	spinlock.h	17;"	d
+UV_SPINLOCK_INITIALIZER	spinlock.h	22;"	d
+UV_STREAM_BLOCKING	internal.h	/^  UV_STREAM_BLOCKING      = 0x80,   \/* Synchronous writes. *\/$/;"	e	enum:__anon2
+UV_STREAM_READABLE	internal.h	/^  UV_STREAM_READABLE      = 0x20,   \/* The stream is readable *\/$/;"	e	enum:__anon2
+UV_STREAM_READING	internal.h	/^  UV_STREAM_READING       = 0x04,   \/* uv_read_start() called. *\/$/;"	e	enum:__anon2
+UV_STREAM_READ_EOF	internal.h	/^  UV_STREAM_READ_EOF      = 0x200,  \/* read(2) read EOF. *\/$/;"	e	enum:__anon2
+UV_STREAM_READ_PARTIAL	internal.h	/^  UV_STREAM_READ_PARTIAL  = 0x100,  \/* read(2) read less than requested. *\/$/;"	e	enum:__anon2
+UV_STREAM_SHUT	internal.h	/^  UV_STREAM_SHUT          = 0x10,   \/* Write side closed. *\/$/;"	e	enum:__anon2
+UV_STREAM_SHUTTING	internal.h	/^  UV_STREAM_SHUTTING      = 0x08,   \/* uv_shutdown() called but not complete. *\/$/;"	e	enum:__anon2
+UV_STREAM_WRITABLE	internal.h	/^  UV_STREAM_WRITABLE      = 0x40,   \/* The stream is writable *\/$/;"	e	enum:__anon2
+UV_SYSCALL_BASE	linux-syscalls.c	44;"	d	file:
+UV_SYSCALL_BASE	linux-syscalls.c	46;"	d	file:
+UV_TCP_KEEPALIVE	internal.h	/^  UV_TCP_KEEPALIVE        = 0x800,  \/* Turn on keep-alive. *\/$/;"	e	enum:__anon2
+UV_TCP_NODELAY	internal.h	/^  UV_TCP_NODELAY          = 0x400,  \/* Disable Nagle. *\/$/;"	e	enum:__anon2
+UV_TCP_SINGLE_ACCEPT	internal.h	/^  UV_TCP_SINGLE_ACCEPT    = 0x1000, \/* Only accept() when idle. *\/$/;"	e	enum:__anon2
+UV_UDP_PROCESSING	internal.h	/^  UV_UDP_PROCESSING       = 0x20000  \/* Handle is running the send callback queue. *\/$/;"	e	enum:__anon2
+UV_UNIX_INTERNAL_H_	internal.h	23;"	d
+UV_UNUSED	atomic-ops.h	/^UV_UNUSED(static int cmpxchgi(int* ptr, int oldval, int newval)) {$/;"	f
+UV_UNUSED	atomic-ops.h	/^UV_UNUSED(static long cmpxchgl(long* ptr, long oldval, long newval)) {$/;"	f
+UV_UNUSED	atomic-ops.h	/^UV_UNUSED(static void cpu_relax(void)) {$/;"	f
+UV_UNUSED	internal.h	/^UV_UNUSED(static char* uv__basename_r(const char* path)) {$/;"	f
+UV_UNUSED	internal.h	/^UV_UNUSED(static void uv__req_init(uv_loop_t* loop,$/;"	f
+UV_UNUSED	internal.h	/^UV_UNUSED(static void uv__update_time(uv_loop_t* loop)) {$/;"	f
+UV_UNUSED	internal.h	85;"	d
+UV_UNUSED	internal.h	88;"	d
+UV_UNUSED	spinlock.h	/^UV_UNUSED(static int uv_spinlock_trylock(uv_spinlock_t* spinlock)) {$/;"	f
+UV_UNUSED	spinlock.h	/^UV_UNUSED(static void uv_spinlock_init(uv_spinlock_t* spinlock)) {$/;"	f
+UV_UNUSED	spinlock.h	/^UV_UNUSED(static void uv_spinlock_lock(uv_spinlock_t* spinlock)) {$/;"	f
+UV_UNUSED	spinlock.h	/^UV_UNUSED(static void uv_spinlock_unlock(uv_spinlock_t* spinlock)) {$/;"	f
+UV__CMSG_FD_COUNT	stream.c	1031;"	d	file:
+UV__CMSG_FD_COUNT	stream.c	1190;"	d	file:
+UV__CMSG_FD_SIZE	stream.c	1032;"	d	file:
+UV__CMSG_FD_SIZE	stream.c	1191;"	d	file:
+UV__EFD_CLOEXEC	linux-syscalls.h	56;"	d
+UV__EFD_NONBLOCK	linux-syscalls.h	57;"	d
+UV__EPOLLERR	linux-syscalls.h	77;"	d
+UV__EPOLLET	linux-syscalls.h	80;"	d
+UV__EPOLLHUP	linux-syscalls.h	78;"	d
+UV__EPOLLIN	linux-syscalls.h	75;"	d
+UV__EPOLLONESHOT	linux-syscalls.h	79;"	d
+UV__EPOLLOUT	linux-syscalls.h	76;"	d
+UV__EPOLL_CLOEXEC	linux-syscalls.h	70;"	d
+UV__EPOLL_CTL_ADD	linux-syscalls.h	71;"	d
+UV__EPOLL_CTL_DEL	linux-syscalls.h	72;"	d
+UV__EPOLL_CTL_MOD	linux-syscalls.h	73;"	d
+UV__FSEVENTS_PROCESS	fsevents.c	144;"	d	file:
+UV__F_NONBLOCK	internal.h	257;"	d
+UV__F_NONBLOCK	internal.h	259;"	d
+UV__IN_ACCESS	linux-syscalls.h	83;"	d
+UV__IN_ATTRIB	linux-syscalls.h	85;"	d
+UV__IN_CLOEXEC	linux-syscalls.h	59;"	d
+UV__IN_CLOSE_NOWRITE	linux-syscalls.h	87;"	d
+UV__IN_CLOSE_WRITE	linux-syscalls.h	86;"	d
+UV__IN_CREATE	linux-syscalls.h	91;"	d
+UV__IN_DELETE	linux-syscalls.h	92;"	d
+UV__IN_DELETE_SELF	linux-syscalls.h	93;"	d
+UV__IN_MODIFY	linux-syscalls.h	84;"	d
+UV__IN_MOVED_FROM	linux-syscalls.h	89;"	d
+UV__IN_MOVED_TO	linux-syscalls.h	90;"	d
+UV__IN_MOVE_SELF	linux-syscalls.h	94;"	d
+UV__IN_NONBLOCK	linux-syscalls.h	60;"	d
+UV__IN_OPEN	linux-syscalls.h	88;"	d
+UV__O_CLOEXEC	core.c	63;"	d	file:
+UV__O_CLOEXEC	linux-syscalls.h	35;"	d
+UV__O_CLOEXEC	linux-syscalls.h	37;"	d
+UV__O_CLOEXEC	linux-syscalls.h	39;"	d
+UV__O_CLOEXEC	linux-syscalls.h	41;"	d
+UV__O_NONBLOCK	linux-syscalls.h	45;"	d
+UV__O_NONBLOCK	linux-syscalls.h	47;"	d
+UV__O_NONBLOCK	linux-syscalls.h	49;"	d
+UV__O_NONBLOCK	linux-syscalls.h	51;"	d
+UV__O_NONBLOCK	linux-syscalls.h	53;"	d
+UV__POLLERR	internal.h	101;"	d
+UV__POLLERR	internal.h	114;"	d
+UV__POLLERR	internal.h	94;"	d
+UV__POLLHUP	internal.h	102;"	d
+UV__POLLHUP	internal.h	118;"	d
+UV__POLLHUP	internal.h	95;"	d
+UV__POLLIN	internal.h	106;"	d
+UV__POLLIN	internal.h	92;"	d
+UV__POLLIN	internal.h	99;"	d
+UV__POLLOUT	internal.h	100;"	d
+UV__POLLOUT	internal.h	110;"	d
+UV__POLLOUT	internal.h	93;"	d
+UV__SOCK_CLOEXEC	core.c	67;"	d	file:
+UV__SOCK_CLOEXEC	linux-syscalls.h	62;"	d
+UV__SOCK_NONBLOCK	core.c	66;"	d	file:
+UV__SOCK_NONBLOCK	linux-syscalls.h	64;"	d
+UV__SOCK_NONBLOCK	linux-syscalls.h	66;"	d
+V	fsevents.c	522;"	d	file:
+V	fsevents.c	549;"	d	file:
+X	fs.c	852;"	d	file:
+X	fs.c	887;"	d	file:
+_FILE_OFFSET_BITS	sunos.c	53;"	d	file:
+_FILE_OFFSET_BITS	sunos.c	61;"	d	file:
+_GNU_SOURCE	getaddrinfo.c	25;"	d	file:
+_GNU_SOURCE	linux-syscalls.h	25;"	d
+_GNU_SOURCE	linux-syscalls.h	26;"	d
+__NR_accept4	linux-syscalls.c	52;"	d	file:
+__NR_accept4	linux-syscalls.c	56;"	d	file:
+__NR_dup3	linux-syscalls.c	232;"	d	file:
+__NR_dup3	linux-syscalls.c	234;"	d	file:
+__NR_dup3	linux-syscalls.c	236;"	d	file:
+__NR_epoll_create	linux-syscalls.c	82;"	d	file:
+__NR_epoll_create	linux-syscalls.c	84;"	d	file:
+__NR_epoll_create	linux-syscalls.c	86;"	d	file:
+__NR_epoll_create1	linux-syscalls.c	92;"	d	file:
+__NR_epoll_create1	linux-syscalls.c	94;"	d	file:
+__NR_epoll_create1	linux-syscalls.c	96;"	d	file:
+__NR_epoll_ctl	linux-syscalls.c	102;"	d	file:
+__NR_epoll_ctl	linux-syscalls.c	104;"	d	file:
+__NR_epoll_ctl	linux-syscalls.c	106;"	d	file:
+__NR_epoll_pwait	linux-syscalls.c	122;"	d	file:
+__NR_epoll_pwait	linux-syscalls.c	124;"	d	file:
+__NR_epoll_pwait	linux-syscalls.c	126;"	d	file:
+__NR_epoll_wait	linux-syscalls.c	112;"	d	file:
+__NR_epoll_wait	linux-syscalls.c	114;"	d	file:
+__NR_epoll_wait	linux-syscalls.c	116;"	d	file:
+__NR_eventfd	linux-syscalls.c	62;"	d	file:
+__NR_eventfd	linux-syscalls.c	64;"	d	file:
+__NR_eventfd	linux-syscalls.c	66;"	d	file:
+__NR_eventfd2	linux-syscalls.c	72;"	d	file:
+__NR_eventfd2	linux-syscalls.c	74;"	d	file:
+__NR_eventfd2	linux-syscalls.c	76;"	d	file:
+__NR_inotify_add_watch	linux-syscalls.c	152;"	d	file:
+__NR_inotify_add_watch	linux-syscalls.c	154;"	d	file:
+__NR_inotify_add_watch	linux-syscalls.c	156;"	d	file:
+__NR_inotify_init	linux-syscalls.c	132;"	d	file:
+__NR_inotify_init	linux-syscalls.c	134;"	d	file:
+__NR_inotify_init	linux-syscalls.c	136;"	d	file:
+__NR_inotify_init1	linux-syscalls.c	142;"	d	file:
+__NR_inotify_init1	linux-syscalls.c	144;"	d	file:
+__NR_inotify_init1	linux-syscalls.c	146;"	d	file:
+__NR_inotify_rm_watch	linux-syscalls.c	162;"	d	file:
+__NR_inotify_rm_watch	linux-syscalls.c	164;"	d	file:
+__NR_inotify_rm_watch	linux-syscalls.c	166;"	d	file:
+__NR_pipe2	linux-syscalls.c	172;"	d	file:
+__NR_pipe2	linux-syscalls.c	174;"	d	file:
+__NR_pipe2	linux-syscalls.c	176;"	d	file:
+__NR_preadv	linux-syscalls.c	212;"	d	file:
+__NR_preadv	linux-syscalls.c	214;"	d	file:
+__NR_preadv	linux-syscalls.c	216;"	d	file:
+__NR_pwritev	linux-syscalls.c	222;"	d	file:
+__NR_pwritev	linux-syscalls.c	224;"	d	file:
+__NR_pwritev	linux-syscalls.c	226;"	d	file:
+__NR_recvmmsg	linux-syscalls.c	182;"	d	file:
+__NR_recvmmsg	linux-syscalls.c	184;"	d	file:
+__NR_recvmmsg	linux-syscalls.c	186;"	d	file:
+__NR_sendmmsg	linux-syscalls.c	192;"	d	file:
+__NR_sendmmsg	linux-syscalls.c	194;"	d	file:
+__NR_sendmmsg	linux-syscalls.c	196;"	d	file:
+__NR_socketcall	linux-syscalls.c	38;"	d	file:
+__NR_utimensat	linux-syscalls.c	202;"	d	file:
+__NR_utimensat	linux-syscalls.c	204;"	d	file:
+__NR_utimensat	linux-syscalls.c	206;"	d	file:
+__sync_val_compare_and_swap	atomic-ops.h	23;"	d
+addToEnd	android-ifaddrs.c	/^static void addToEnd(struct ifaddrs **p_resultList, struct ifaddrs *p_entry)$/;"	f	file:
+arg	thread.c	/^  void* arg;$/;"	m	struct:thread_ctx	file:
+args_mem	proctitle.c	/^static void* args_mem;$/;"	v	file:
+async	stream.c	/^  uv_async_t async;$/;"	m	struct:uv__stream_select_s	file:
+async_sem	stream.c	/^  uv_sem_t async_sem;$/;"	m	struct:uv__stream_select_s	file:
+calcAddrLen	android-ifaddrs.c	/^static size_t calcAddrLen(sa_family_t p_family, int p_dataSize)$/;"	f	file:
+close_sem	stream.c	/^  uv_sem_t close_sem;$/;"	m	struct:uv__stream_select_s	file:
+compare_watchers	linux-inotify.c	/^static int compare_watchers(const struct watcher_list* a,$/;"	f	file:
+cookie	linux-syscalls.h	/^  uint32_t cookie;$/;"	m	struct:uv__inotify_event
+data	linux-syscalls.h	/^  uint64_t data;$/;"	m	struct:uv__epoll_event
+entry	thread.c	/^  void (*entry)(void* arg);$/;"	m	struct:thread_ctx	file:
+environ	process.c	38;"	d	file:
+events	fsevents.c	/^  int events;$/;"	m	struct:uv__fsevents_event_s	file:
+events	linux-syscalls.h	/^  uint32_t events;$/;"	m	struct:uv__epoll_event
+events	stream.c	/^  int events;$/;"	m	struct:uv__stream_select_s	file:
+fake_fd	stream.c	/^  int fake_fd;$/;"	m	struct:uv__stream_select_s	file:
+fd	stream.c	/^  int fd;$/;"	m	struct:uv__stream_select_s	file:
+fds	internal.h	/^  int fds[1];$/;"	m	struct:uv__stream_queued_fds_s
+findInterface	android-ifaddrs.c	/^static struct ifaddrs *findInterface(int p_index, struct ifaddrs **p_links, int p_numLinks)$/;"	f	file:
+find_watcher	linux-inotify.c	/^static struct watcher_list* find_watcher(uv_loop_t* loop, int wd) {$/;"	f	file:
+freeResultList	android-ifaddrs.c	/^static void freeResultList(NetlinkList *p_list)$/;"	f	file:
+freeifaddrs	android-ifaddrs.c	/^void freeifaddrs(struct ifaddrs *ifa)$/;"	f
+fsevent_handle_count	fsevents.c	/^  unsigned int fsevent_handle_count;$/;"	m	struct:uv__cf_loop_state_s	file:
+fsevent_handles	fsevents.c	/^  void* fsevent_handles[2];$/;"	m	struct:uv__cf_loop_state_s	file:
+fsevent_mutex	fsevents.c	/^  uv_mutex_t fsevent_mutex;$/;"	m	struct:uv__cf_loop_state_s	file:
+fsevent_need_reschedule	fsevents.c	/^  int fsevent_need_reschedule;$/;"	m	struct:uv__cf_loop_state_s	file:
+fsevent_sem	fsevents.c	/^  uv_sem_t fsevent_sem;$/;"	m	struct:uv__cf_loop_state_s	file:
+fsevent_stream	fsevents.c	/^  FSEventStreamRef fsevent_stream;$/;"	m	struct:uv__cf_loop_state_s	file:
+getNetlinkResponse	android-ifaddrs.c	/^static struct nlmsghdr *getNetlinkResponse(int p_socket, int *p_size, int *p_done)$/;"	f	file:
+getResultList	android-ifaddrs.c	/^static NetlinkList *getResultList(int p_socket, int p_request)$/;"	f	file:
+getifaddrs	android-ifaddrs.c	/^int getifaddrs(struct ifaddrs **ifap)$/;"	f
+handle	fsevents.c	/^  uv_fs_event_t* handle;$/;"	m	struct:uv__cf_loop_signal_s	file:
+handle	signal.c	/^  uv_signal_t* handle;$/;"	m	struct:__anon1	file:
+init_inotify	linux-inotify.c	/^static int init_inotify(uv_loop_t* loop) {$/;"	f	file:
+inline	internal.h	33;"	d
+int_fd	stream.c	/^  int int_fd;$/;"	m	struct:uv__stream_select_s	file:
+interpretAddr	android-ifaddrs.c	/^static int interpretAddr(struct nlmsghdr *p_hdr, struct ifaddrs **p_resultList, int p_numLinks)$/;"	f	file:
+interpretAddrs	android-ifaddrs.c	/^static int interpretAddrs(int p_socket, NetlinkList *p_netlinkList, struct ifaddrs **p_resultList, int p_numLinks)$/;"	f	file:
+interpretLink	android-ifaddrs.c	/^static int interpretLink(struct nlmsghdr *p_hdr, struct ifaddrs **p_resultList)$/;"	f	file:
+interpretLinks	android-ifaddrs.c	/^static int interpretLinks(int p_socket, NetlinkList *p_netlinkList, struct ifaddrs **p_resultList)$/;"	f	file:
+kFSEventStreamCreateFlagFileEvents	internal.h	/^static const int kFSEventStreamCreateFlagFileEvents = 0x00000010;$/;"	v
+kFSEventStreamEventFlagItemChangeOwner	internal.h	/^static const int kFSEventStreamEventFlagItemChangeOwner = 0x00004000;$/;"	v
+kFSEventStreamEventFlagItemCreated	internal.h	/^static const int kFSEventStreamEventFlagItemCreated = 0x00000100;$/;"	v
+kFSEventStreamEventFlagItemFinderInfoMod	internal.h	/^static const int kFSEventStreamEventFlagItemFinderInfoMod = 0x00002000;$/;"	v
+kFSEventStreamEventFlagItemInodeMetaMod	internal.h	/^static const int kFSEventStreamEventFlagItemInodeMetaMod = 0x00000400;$/;"	v
+kFSEventStreamEventFlagItemIsDir	internal.h	/^static const int kFSEventStreamEventFlagItemIsDir = 0x00020000;$/;"	v
+kFSEventStreamEventFlagItemIsFile	internal.h	/^static const int kFSEventStreamEventFlagItemIsFile = 0x00010000;$/;"	v
+kFSEventStreamEventFlagItemIsSymlink	internal.h	/^static const int kFSEventStreamEventFlagItemIsSymlink = 0x00040000;$/;"	v
+kFSEventStreamEventFlagItemModified	internal.h	/^static const int kFSEventStreamEventFlagItemModified = 0x00001000;$/;"	v
+kFSEventStreamEventFlagItemRemoved	internal.h	/^static const int kFSEventStreamEventFlagItemRemoved = 0x00000200;$/;"	v
+kFSEventStreamEventFlagItemRenamed	internal.h	/^static const int kFSEventStreamEventFlagItemRenamed = 0x00000800;$/;"	v
+kFSEventStreamEventFlagItemXattrMod	internal.h	/^static const int kFSEventStreamEventFlagItemXattrMod = 0x00008000;$/;"	v
+kFSEventsModified	fsevents.c	54;"	d	file:
+kFSEventsRenamed	fsevents.c	60;"	d	file:
+kFSEventsSystem	fsevents.c	64;"	d	file:
+len	linux-syscalls.h	/^  uint32_t len;$/;"	m	struct:uv__inotify_event
+len	proctitle.c	/^  size_t len;$/;"	m	struct:__anon6	file:
+lock	spinlock.h	/^  int lock;$/;"	m	struct:__anon5
+loop	fsevents.c	/^  CFRunLoopRef loop;$/;"	m	struct:uv__cf_loop_state_s	file:
+m_data	android-ifaddrs.c	/^    struct nlmsghdr *m_data;$/;"	m	struct:NetlinkList	typeref:struct:NetlinkList::nlmsghdr	file:
+m_next	android-ifaddrs.c	/^    struct NetlinkList *m_next;$/;"	m	struct:NetlinkList	typeref:struct:NetlinkList::NetlinkList	file:
+m_size	android-ifaddrs.c	/^    unsigned int m_size;$/;"	m	struct:NetlinkList	file:
+makeSockaddr	android-ifaddrs.c	/^static void makeSockaddr(sa_family_t p_family, struct sockaddr *p_dest, void *p_data, size_t p_size)$/;"	f	file:
+mask	linux-syscalls.h	/^  uint32_t mask;$/;"	m	struct:uv__inotify_event
+maxSize	android-ifaddrs.c	/^static size_t maxSize(size_t a, size_t b)$/;"	f	file:
+maybe_new_socket	tcp.c	/^static int maybe_new_socket(uv_tcp_t* handle, int domain, int flags) {$/;"	f	file:
+maybe_resize	core.c	/^static void maybe_resize(uv_loop_t* loop, unsigned int len) {$/;"	f	file:
+member	fsevents.c	/^  QUEUE member;$/;"	m	struct:uv__cf_loop_signal_s	file:
+member	fsevents.c	/^  QUEUE member;$/;"	m	struct:uv__fsevents_event_s	file:
+msg_hdr	linux-syscalls.h	/^  struct msghdr msg_hdr;$/;"	m	struct:uv__mmsghdr	typeref:struct:uv__mmsghdr::msghdr
+msg_len	linux-syscalls.h	/^  unsigned int msg_len;$/;"	m	struct:uv__mmsghdr
+netlink_recv	android-ifaddrs.c	/^static int netlink_recv(int p_socket, void *p_buffer, size_t p_len)$/;"	f	file:
+netlink_send	android-ifaddrs.c	/^static int netlink_send(int p_socket, int p_request)$/;"	f	file:
+netlink_socket	android-ifaddrs.c	/^static int netlink_socket(void)$/;"	f	file:
+newListItem	android-ifaddrs.c	/^static NetlinkList *newListItem(struct nlmsghdr *p_data, unsigned int p_size)$/;"	f	file:
+new_inotify_fd	linux-inotify.c	/^static int new_inotify_fd(void) {$/;"	f	file:
+next_power_of_two	core.c	/^static unsigned int next_power_of_two(unsigned int val) {$/;"	f	file:
+offset	internal.h	/^  unsigned int offset;$/;"	m	struct:uv__stream_queued_fds_s
+offsetof	core.c	/^STATIC_ASSERT(offsetof(uv_buf_t, base) == offsetof(struct iovec, iov_base));$/;"	v
+offsetof	core.c	/^STATIC_ASSERT(offsetof(uv_buf_t, len) == offsetof(struct iovec, iov_len));$/;"	v
+orig_termios	tty.c	/^static struct termios orig_termios;$/;"	v	typeref:struct:termios	file:
+orig_termios_fd	tty.c	/^static int orig_termios_fd = -1;$/;"	v	file:
+pCFArrayCreate	fsevents.c	/^static CFArrayRef (*pCFArrayCreate)(CFAllocatorRef,$/;"	v	file:
+pCFRelease	fsevents.c	/^static void (*pCFRelease)(CFTypeRef);$/;"	v	file:
+pCFRunLoopAddSource	fsevents.c	/^static void (*pCFRunLoopAddSource)(CFRunLoopRef,$/;"	v	file:
+pCFRunLoopGetCurrent	fsevents.c	/^static CFRunLoopRef (*pCFRunLoopGetCurrent)(void);$/;"	v	file:
+pCFRunLoopRemoveSource	fsevents.c	/^static void (*pCFRunLoopRemoveSource)(CFRunLoopRef,$/;"	v	file:
+pCFRunLoopRun	fsevents.c	/^static void (*pCFRunLoopRun)(void);$/;"	v	file:
+pCFRunLoopSourceCreate	fsevents.c	/^static CFRunLoopSourceRef (*pCFRunLoopSourceCreate)(CFAllocatorRef,$/;"	v	file:
+pCFRunLoopSourceSignal	fsevents.c	/^static void (*pCFRunLoopSourceSignal)(CFRunLoopSourceRef);$/;"	v	file:
+pCFRunLoopStop	fsevents.c	/^static void (*pCFRunLoopStop)(CFRunLoopRef);$/;"	v	file:
+pCFRunLoopWakeUp	fsevents.c	/^static void (*pCFRunLoopWakeUp)(CFRunLoopRef);$/;"	v	file:
+pCFStringCreateWithFileSystemRepresentation	fsevents.c	/^static CFStringRef (*pCFStringCreateWithFileSystemRepresentation)($/;"	v	file:
+pCFStringGetSystemEncoding	fsevents.c	/^static CFStringEncoding (*pCFStringGetSystemEncoding)(void);$/;"	v	file:
+pFSEventStreamCreate	fsevents.c	/^static FSEventStreamRef (*pFSEventStreamCreate)(CFAllocatorRef,$/;"	v	file:
+pFSEventStreamFlushSync	fsevents.c	/^static void (*pFSEventStreamFlushSync)(FSEventStreamRef);$/;"	v	file:
+pFSEventStreamInvalidate	fsevents.c	/^static void (*pFSEventStreamInvalidate)(FSEventStreamRef);$/;"	v	file:
+pFSEventStreamRelease	fsevents.c	/^static void (*pFSEventStreamRelease)(FSEventStreamRef);$/;"	v	file:
+pFSEventStreamScheduleWithRunLoop	fsevents.c	/^static void (*pFSEventStreamScheduleWithRunLoop)(FSEventStreamRef,$/;"	v	file:
+pFSEventStreamStart	fsevents.c	/^static Boolean (*pFSEventStreamStart)(FSEventStreamRef);$/;"	v	file:
+pFSEventStreamStop	fsevents.c	/^static void (*pFSEventStreamStop)(FSEventStreamRef);$/;"	v	file:
+path	fsevents.c	/^  char path[1];$/;"	m	struct:uv__fsevents_event_s	file:
+path	linux-inotify.c	/^  char* path;$/;"	m	struct:watcher_list	file:
+pkCFRunLoopDefaultMode	fsevents.c	/^static CFStringRef (*pkCFRunLoopDefaultMode);$/;"	v	file:
+process_title	freebsd.c	/^static char *process_title;$/;"	v	file:
+process_title	netbsd.c	/^static char *process_title;$/;"	v	file:
+process_title	openbsd.c	/^static char *process_title;$/;"	v	file:
+process_title	proctitle.c	/^} process_title;$/;"	v	typeref:struct:__anon6	file:
+pthread_barrier_destroy	pthread-fixes.c	/^int pthread_barrier_destroy(pthread_barrier_t *barrier) {$/;"	f
+pthread_barrier_init	pthread-fixes.c	/^int pthread_barrier_init(pthread_barrier_t* barrier,$/;"	f
+pthread_barrier_wait	pthread-fixes.c	/^int pthread_barrier_wait(pthread_barrier_t* barrier) {$/;"	f
+pthread_yield	pthread-fixes.c	/^int pthread_yield(void) {$/;"	f
+rbh_root	linux-inotify.c	/^  struct watcher_list* rbh_root;$/;"	m	struct:watcher_root	typeref:struct:watcher_root::watcher_list	file:
+read_cpufreq	linux-core.c	/^static unsigned long read_cpufreq(unsigned int cpunum) {$/;"	f	file:
+read_models	linux-core.c	/^static int read_models(unsigned int numcpus, uv_cpu_info_t* ci) {$/;"	f	file:
+read_speeds	linux-core.c	/^static void read_speeds(unsigned int numcpus, uv_cpu_info_t* ci) {$/;"	f	file:
+read_times	linux-core.c	/^static int read_times(unsigned int numcpus, uv_cpu_info_t* ci) {$/;"	f	file:
+reqevents	internal.h	46;"	d
+rtnevents	internal.h	47;"	d
+signal_source	fsevents.c	/^  CFRunLoopSourceRef signal_source;$/;"	m	struct:uv__cf_loop_state_s	file:
+signum	signal.c	/^  int signum;$/;"	m	struct:__anon1	file:
+size	internal.h	/^  unsigned int size;$/;"	m	struct:uv__stream_queued_fds_s
+sizeof	core.c	/^STATIC_ASSERT(sizeof(uv_buf_t) == sizeof(struct iovec));$/;"	v
+sread	stream.c	/^  fd_set* sread;$/;"	m	struct:uv__stream_select_s	file:
+sread_sz	stream.c	/^  size_t sread_sz;$/;"	m	struct:uv__stream_select_s	file:
+str	proctitle.c	/^  char* str;$/;"	m	struct:__anon6	file:
+stream	stream.c	/^  uv_stream_t* stream;$/;"	m	struct:uv__stream_select_s	file:
+swrite	stream.c	/^  fd_set* swrite;$/;"	m	struct:uv__stream_select_s	file:
+swrite_sz	stream.c	/^  size_t swrite_sz;$/;"	m	struct:uv__stream_select_s	file:
+termios_spinlock	tty.c	/^static uv_spinlock_t termios_spinlock = UV_SPINLOCK_INITIALIZER;$/;"	v	file:
+thread	stream.c	/^  uv_thread_t thread;$/;"	m	struct:uv__stream_select_s	file:
+thread_ctx	thread.c	/^struct thread_ctx {$/;"	s	file:
+timer_less_than	timer.c	/^static int timer_less_than(const struct heap_node* ha,$/;"	f	file:
+uv___stream_fd	stream.c	/^int uv___stream_fd(const uv_stream_t* handle) {$/;"	f
+uv__accept	core.c	/^int uv__accept(int sockfd) {$/;"	f
+uv__accept4	core.c	65;"	d	file:
+uv__accept4	linux-syscalls.c	/^int uv__accept4(int fd, struct sockaddr* addr, socklen_t* addrlen, int flags) {$/;"	f
+uv__ahafs_event	aix.c	/^static void uv__ahafs_event(uv_loop_t* loop, uv__io_t* event_watch, unsigned int fflags) {$/;"	f	file:
+uv__async_close	async.c	/^void uv__async_close(uv_async_t* handle) {$/;"	f
+uv__async_event	async.c	/^static void uv__async_event(uv_loop_t* loop,$/;"	f	file:
+uv__async_eventfd	async.c	/^static int uv__async_eventfd() {$/;"	f	file:
+uv__async_init	async.c	/^void uv__async_init(struct uv__async* wa) {$/;"	f
+uv__async_io	async.c	/^static void uv__async_io(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f	file:
+uv__async_send	async.c	/^void uv__async_send(struct uv__async* wa) {$/;"	f
+uv__async_start	async.c	/^int uv__async_start(uv_loop_t* loop, struct uv__async* wa, uv__async_cb cb) {$/;"	f
+uv__async_stop	async.c	/^void uv__async_stop(uv_loop_t* loop, struct uv__async* wa) {$/;"	f
+uv__cf_loop_cb	fsevents.c	/^static void uv__cf_loop_cb(void* arg) {$/;"	f	file:
+uv__cf_loop_runner	fsevents.c	/^static void* uv__cf_loop_runner(void* arg) {$/;"	f	file:
+uv__cf_loop_signal	fsevents.c	/^int uv__cf_loop_signal(uv_loop_t* loop, uv_fs_event_t* handle) {$/;"	f
+uv__cf_loop_signal_s	fsevents.c	/^struct uv__cf_loop_signal_s {$/;"	s	file:
+uv__cf_loop_signal_t	fsevents.c	/^typedef struct uv__cf_loop_signal_s uv__cf_loop_signal_t;$/;"	t	typeref:struct:uv__cf_loop_signal_s	file:
+uv__cf_loop_state_s	fsevents.c	/^struct uv__cf_loop_state_s {$/;"	s	file:
+uv__cf_loop_state_t	fsevents.c	/^typedef struct uv__cf_loop_state_s uv__cf_loop_state_t;$/;"	t	typeref:struct:uv__cf_loop_state_s	file:
+uv__chld	process.c	/^static void uv__chld(uv_signal_t* handle, int signum) {$/;"	f	file:
+uv__cloexec	core.c	/^int uv__cloexec(int fd, int set) {$/;"	f
+uv__close	core.c	/^int uv__close(int fd) {$/;"	f
+uv__dlerror	dl.c	/^static int uv__dlerror(uv_lib_t* lib) {$/;"	f	file:
+uv__drain	stream.c	/^static void uv__drain(uv_stream_t* stream) {$/;"	f	file:
+uv__dup	core.c	/^int uv__dup(int fd) {$/;"	f
+uv__dup2_cloexec	core.c	/^int uv__dup2_cloexec(int oldfd, int newfd) {$/;"	f
+uv__dup3	linux-syscalls.c	/^int uv__dup3(int oldfd, int newfd, int flags) {$/;"	f
+uv__emfile_trick	stream.c	/^static int uv__emfile_trick(uv_loop_t* loop, int accept_fd) {$/;"	f	file:
+uv__epoll_create	linux-syscalls.c	/^int uv__epoll_create(int size) {$/;"	f
+uv__epoll_create1	linux-syscalls.c	/^int uv__epoll_create1(int flags) {$/;"	f
+uv__epoll_ctl	linux-syscalls.c	/^int uv__epoll_ctl(int epfd, int op, int fd, struct uv__epoll_event* events) {$/;"	f
+uv__epoll_event	linux-syscalls.h	/^struct uv__epoll_event {$/;"	s
+uv__epoll_pwait	linux-syscalls.c	/^int uv__epoll_pwait(int epfd,$/;"	f
+uv__epoll_wait	linux-syscalls.c	/^int uv__epoll_wait(int epfd,$/;"	f
+uv__eventfd	linux-syscalls.c	/^int uv__eventfd(unsigned int count) {$/;"	f
+uv__eventfd2	linux-syscalls.c	/^int uv__eventfd2(unsigned int count, int flags) {$/;"	f
+uv__finish_close	core.c	/^static void uv__finish_close(uv_handle_t* handle) {$/;"	f	file:
+uv__fs_buf_iter	fs.c	/^static ssize_t uv__fs_buf_iter(uv_fs_t* req, uv__fs_buf_iter_processor process) {$/;"	f	file:
+uv__fs_buf_iter_processor	fs.c	/^typedef ssize_t (*uv__fs_buf_iter_processor)(uv_fs_t* req);$/;"	t	file:
+uv__fs_done	fs.c	/^static void uv__fs_done(struct uv__work* w, int status) {$/;"	f	file:
+uv__fs_event	kqueue.c	/^static void uv__fs_event(uv_loop_t* loop, uv__io_t* w, unsigned int fflags) {$/;"	f	file:
+uv__fs_event_close	aix.c	/^void uv__fs_event_close(uv_fs_event_t* handle) {$/;"	f
+uv__fs_event_close	kqueue.c	/^void uv__fs_event_close(uv_fs_event_t* handle) {$/;"	f
+uv__fs_event_close	linux-inotify.c	/^void uv__fs_event_close(uv_fs_event_t* handle) {$/;"	f
+uv__fs_event_close	sunos.c	/^void uv__fs_event_close(uv_fs_event_t* handle) {$/;"	f
+uv__fs_event_read	sunos.c	/^static void uv__fs_event_read(uv_loop_t* loop,$/;"	f	file:
+uv__fs_event_rearm	sunos.c	/^static int uv__fs_event_rearm(uv_fs_event_t *handle) {$/;"	f	file:
+uv__fs_fdatasync	fs.c	/^static ssize_t uv__fs_fdatasync(uv_fs_t* req) {$/;"	f	file:
+uv__fs_fstat	fs.c	/^static int uv__fs_fstat(int fd, uv_stat_t *buf) {$/;"	f	file:
+uv__fs_futime	fs.c	/^static ssize_t uv__fs_futime(uv_fs_t* req) {$/;"	f	file:
+uv__fs_lstat	fs.c	/^static int uv__fs_lstat(const char *path, uv_stat_t *buf) {$/;"	f	file:
+uv__fs_mkdtemp	fs.c	/^static ssize_t uv__fs_mkdtemp(uv_fs_t* req) {$/;"	f	file:
+uv__fs_open	fs.c	/^static ssize_t uv__fs_open(uv_fs_t* req) {$/;"	f	file:
+uv__fs_read	fs.c	/^static ssize_t uv__fs_read(uv_fs_t* req) {$/;"	f	file:
+uv__fs_readlink	fs.c	/^static ssize_t uv__fs_readlink(uv_fs_t* req) {$/;"	f	file:
+uv__fs_scandir	fs.c	/^static ssize_t uv__fs_scandir(uv_fs_t* req) {$/;"	f	file:
+uv__fs_scandir_filter	fs.c	/^static int uv__fs_scandir_filter(uv__dirent_t* dent) {$/;"	f	file:
+uv__fs_sendfile	fs.c	/^static ssize_t uv__fs_sendfile(uv_fs_t* req) {$/;"	f	file:
+uv__fs_sendfile_emul	fs.c	/^static ssize_t uv__fs_sendfile_emul(uv_fs_t* req) {$/;"	f	file:
+uv__fs_stat	fs.c	/^static int uv__fs_stat(const char *path, uv_stat_t *buf) {$/;"	f	file:
+uv__fs_utime	fs.c	/^static ssize_t uv__fs_utime(uv_fs_t* req) {$/;"	f	file:
+uv__fs_work	fs.c	/^static void uv__fs_work(struct uv__work* w) {$/;"	f	file:
+uv__fs_write	fs.c	/^static ssize_t uv__fs_write(uv_fs_t* req) {$/;"	f	file:
+uv__fsevents_cb	fsevents.c	/^static void uv__fsevents_cb(uv_async_t* cb) {$/;"	f	file:
+uv__fsevents_close	fsevents.c	/^int uv__fsevents_close(uv_fs_event_t* handle) {$/;"	f
+uv__fsevents_create_stream	fsevents.c	/^static int uv__fsevents_create_stream(uv_loop_t* loop, CFArrayRef paths) {$/;"	f	file:
+uv__fsevents_destroy_stream	fsevents.c	/^static void uv__fsevents_destroy_stream(uv_loop_t* loop) {$/;"	f	file:
+uv__fsevents_event_cb	fsevents.c	/^static void uv__fsevents_event_cb(ConstFSEventStreamRef streamRef,$/;"	f	file:
+uv__fsevents_event_s	fsevents.c	/^struct uv__fsevents_event_s {$/;"	s	file:
+uv__fsevents_event_t	fsevents.c	/^typedef struct uv__fsevents_event_s uv__fsevents_event_t;$/;"	t	typeref:struct:uv__fsevents_event_s	file:
+uv__fsevents_global_init	fsevents.c	/^static int uv__fsevents_global_init(void) {$/;"	f	file:
+uv__fsevents_init	fsevents.c	/^int uv__fsevents_init(uv_fs_event_t* handle) {$/;"	f
+uv__fsevents_loop_delete	fsevents.c	/^void uv__fsevents_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__fsevents_loop_init	fsevents.c	/^static int uv__fsevents_loop_init(uv_loop_t* loop) {$/;"	f	file:
+uv__fsevents_push_event	fsevents.c	/^static void uv__fsevents_push_event(uv_fs_event_t* handle,$/;"	f	file:
+uv__fsevents_reschedule	fsevents.c	/^static void uv__fsevents_reschedule(uv_fs_event_t* handle) {$/;"	f	file:
+uv__getaddrinfo_done	getaddrinfo.c	/^static void uv__getaddrinfo_done(struct uv__work* w, int status) {$/;"	f	file:
+uv__getaddrinfo_translate_error	getaddrinfo.c	/^int uv__getaddrinfo_translate_error(int sys_err) {$/;"	f
+uv__getaddrinfo_work	getaddrinfo.c	/^static void uv__getaddrinfo_work(struct uv__work* w) {$/;"	f	file:
+uv__getiovmax	core.c	/^int uv__getiovmax(void) {$/;"	f
+uv__getnameinfo_done	getnameinfo.c	/^static void uv__getnameinfo_done(struct uv__work* w, int status) {$/;"	f	file:
+uv__getnameinfo_work	getnameinfo.c	/^static void uv__getnameinfo_work(struct uv__work* w) {$/;"	f	file:
+uv__handle_fd	stream.c	/^static int uv__handle_fd(uv_handle_t* handle) {$/;"	f	file:
+uv__handle_type	stream.c	/^uv_handle_type uv__handle_type(int fd) {$/;"	f
+uv__hrtime	aix.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	darwin.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	freebsd.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	linux-core.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	netbsd.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	openbsd.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__hrtime	sunos.c	/^uint64_t uv__hrtime(uv_clocktype_t type) {$/;"	f
+uv__inotify_add_watch	linux-syscalls.c	/^int uv__inotify_add_watch(int fd, const char* path, uint32_t mask) {$/;"	f
+uv__inotify_event	linux-syscalls.h	/^struct uv__inotify_event {$/;"	s
+uv__inotify_init	linux-syscalls.c	/^int uv__inotify_init(void) {$/;"	f
+uv__inotify_init1	linux-syscalls.c	/^int uv__inotify_init1(int flags) {$/;"	f
+uv__inotify_read	linux-inotify.c	/^static void uv__inotify_read(uv_loop_t* loop,$/;"	f	file:
+uv__inotify_rm_watch	linux-syscalls.c	/^int uv__inotify_rm_watch(int fd, int32_t wd) {$/;"	f
+uv__io_active	core.c	/^int uv__io_active(const uv__io_t* w, unsigned int events) {$/;"	f
+uv__io_close	core.c	/^void uv__io_close(uv_loop_t* loop, uv__io_t* w) {$/;"	f
+uv__io_feed	core.c	/^void uv__io_feed(uv_loop_t* loop, uv__io_t* w) {$/;"	f
+uv__io_init	core.c	/^void uv__io_init(uv__io_t* w, uv__io_cb cb, int fd) {$/;"	f
+uv__io_poll	aix.c	/^void uv__io_poll(uv_loop_t* loop, int timeout) {$/;"	f
+uv__io_poll	kqueue.c	/^void uv__io_poll(uv_loop_t* loop, int timeout) {$/;"	f
+uv__io_poll	linux-core.c	/^void uv__io_poll(uv_loop_t* loop, int timeout) {$/;"	f
+uv__io_poll	sunos.c	/^void uv__io_poll(uv_loop_t* loop, int timeout) {$/;"	f
+uv__io_start	core.c	/^void uv__io_start(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f
+uv__io_stop	core.c	/^void uv__io_stop(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f
+uv__is_ahafs_mounted	aix.c	/^static int uv__is_ahafs_mounted(void){$/;"	f	file:
+uv__kqueue_init	kqueue.c	/^int uv__kqueue_init(uv_loop_t* loop) {$/;"	f
+uv__loop_alive	core.c	/^static int uv__loop_alive(const uv_loop_t* loop) {$/;"	f	file:
+uv__loop_close	loop.c	/^void uv__loop_close(uv_loop_t* loop) {$/;"	f
+uv__loop_configure	loop.c	/^int uv__loop_configure(uv_loop_t* loop, uv_loop_option option, va_list ap) {$/;"	f
+uv__make_close_pending	core.c	/^void uv__make_close_pending(uv_handle_t* handle) {$/;"	f
+uv__make_pipe	process.c	/^int uv__make_pipe(int fds[2], int flags) {$/;"	f
+uv__make_socketpair	process.c	/^int uv__make_socketpair(int fds[2], int flags) {$/;"	f
+uv__make_subdirs_p	aix.c	/^static int uv__make_subdirs_p(const char *filename) {$/;"	f	file:
+uv__makedir_p	aix.c	/^static int uv__makedir_p(const char *dir) {$/;"	f	file:
+uv__mmsghdr	linux-syscalls.h	/^struct uv__mmsghdr {$/;"	s
+uv__next_timeout	timer.c	/^int uv__next_timeout(const uv_loop_t* loop) {$/;"	f
+uv__nonblock	core.c	/^int uv__nonblock(int fd, int set) {$/;"	f
+uv__open_cloexec	core.c	/^int uv__open_cloexec(const char* path, int flags) {$/;"	f
+uv__parse_data	aix.c	/^static int uv__parse_data(char *buf, int *events, uv_fs_event_t* handle) {$/;"	f	file:
+uv__path_is_a_directory	aix.c	/^static int uv__path_is_a_directory(char* filename) {$/;"	f	file:
+uv__peersockfunc	pipe.c	/^typedef int (*uv__peersockfunc)(int, struct sockaddr*, socklen_t*);$/;"	t	file:
+uv__pipe2	linux-syscalls.c	/^int uv__pipe2(int pipefd[2], int flags) {$/;"	f
+uv__pipe_close	pipe.c	/^void uv__pipe_close(uv_pipe_t* handle) {$/;"	f
+uv__pipe_getsockpeername	pipe.c	/^static int uv__pipe_getsockpeername(const uv_pipe_t* handle,$/;"	f	file:
+uv__platform_invalidate_fd	aix.c	/^void uv__platform_invalidate_fd(uv_loop_t* loop, int fd) {$/;"	f
+uv__platform_invalidate_fd	kqueue.c	/^void uv__platform_invalidate_fd(uv_loop_t* loop, int fd) {$/;"	f
+uv__platform_invalidate_fd	linux-core.c	/^void uv__platform_invalidate_fd(uv_loop_t* loop, int fd) {$/;"	f
+uv__platform_invalidate_fd	sunos.c	/^void uv__platform_invalidate_fd(uv_loop_t* loop, int fd) {$/;"	f
+uv__platform_loop_delete	aix.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	darwin.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	freebsd.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	linux-core.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	netbsd.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	openbsd.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_delete	sunos.c	/^void uv__platform_loop_delete(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	aix.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	darwin.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	freebsd.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	linux-core.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	netbsd.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	openbsd.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__platform_loop_init	sunos.c	/^int uv__platform_loop_init(uv_loop_t* loop) {$/;"	f
+uv__poll_close	poll.c	/^void uv__poll_close(uv_poll_t* handle) {$/;"	f
+uv__poll_io	poll.c	/^static void uv__poll_io(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f	file:
+uv__poll_stop	poll.c	/^static void uv__poll_stop(uv_poll_t* handle) {$/;"	f	file:
+uv__preadv	linux-syscalls.c	/^ssize_t uv__preadv(int fd, const struct iovec *iov, int iovcnt, off_t offset) {$/;"	f
+uv__process_child_init	process.c	/^static void uv__process_child_init(const uv_process_options_t* options,$/;"	f	file:
+uv__process_close	process.c	/^void uv__process_close(uv_process_t* handle) {$/;"	f
+uv__process_close_stream	process.c	/^static void uv__process_close_stream(uv_stdio_container_t* container) {$/;"	f	file:
+uv__process_init_stdio	process.c	/^static int uv__process_init_stdio(uv_stdio_container_t* container, int fds[2]) {$/;"	f	file:
+uv__process_open_stream	process.c	/^static int uv__process_open_stream(uv_stdio_container_t* container,$/;"	f	file:
+uv__pthread_setname_np	darwin-proctitle.c	/^static int uv__pthread_setname_np(const char* name) {$/;"	f	file:
+uv__pthread_sigmask	pthread-fixes.c	/^int uv__pthread_sigmask(int how, const sigset_t* set, sigset_t* oset) {$/;"	f
+uv__pwritev	linux-syscalls.c	/^ssize_t uv__pwritev(int fd, const struct iovec *iov, int iovcnt, off_t offset) {$/;"	f
+uv__rawname	aix.c	/^static char *uv__rawname(char *cp) {$/;"	f	file:
+uv__read	stream.c	/^static void uv__read(uv_stream_t* stream) {$/;"	f	file:
+uv__recvmmsg	linux-syscalls.c	/^int uv__recvmmsg(int fd,$/;"	f
+uv__recvmsg	core.c	/^ssize_t uv__recvmsg(int fd, struct msghdr* msg, int flags) {$/;"	f
+uv__req_init	internal.h	297;"	d
+uv__run_closing_handles	core.c	/^static void uv__run_closing_handles(uv_loop_t* loop) {$/;"	f	file:
+uv__run_pending	core.c	/^static int uv__run_pending(uv_loop_t* loop) {$/;"	f	file:
+uv__run_timers	timer.c	/^void uv__run_timers(uv_loop_t* loop) {$/;"	f
+uv__sendmmsg	linux-syscalls.c	/^int uv__sendmmsg(int fd,$/;"	f
+uv__server_io	stream.c	/^void uv__server_io(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f
+uv__set_process_title	darwin-proctitle.c	/^int uv__set_process_title(const char* title) {$/;"	f
+uv__set_process_title	linux-core.c	/^void uv__set_process_title(const char* title) {$/;"	f
+uv__set_reuse	udp.c	/^static int uv__set_reuse(int fd) {$/;"	f	file:
+uv__setsockopt	udp.c	/^static int uv__setsockopt(uv_udp_t* handle,$/;"	f	file:
+uv__setsockopt_maybe_char	udp.c	/^static int uv__setsockopt_maybe_char(uv_udp_t* handle,$/;"	f	file:
+uv__setup_ahafs	aix.c	/^static int uv__setup_ahafs(const char* filename, int *fd) {$/;"	f	file:
+uv__signal_block_and_lock	signal.c	/^static void uv__signal_block_and_lock(sigset_t* saved_sigmask) {$/;"	f	file:
+uv__signal_close	signal.c	/^void uv__signal_close(uv_signal_t* handle) {$/;"	f
+uv__signal_compare	signal.c	/^static int uv__signal_compare(uv_signal_t* w1, uv_signal_t* w2) {$/;"	f	file:
+uv__signal_event	signal.c	/^static void uv__signal_event(uv_loop_t* loop,$/;"	f	file:
+uv__signal_first_handle	signal.c	/^static uv_signal_t* uv__signal_first_handle(int signum) {$/;"	f	file:
+uv__signal_global_init	signal.c	/^static void uv__signal_global_init(void) {$/;"	f	file:
+uv__signal_global_init_guard	signal.c	/^static pthread_once_t uv__signal_global_init_guard = PTHREAD_ONCE_INIT;$/;"	v	file:
+uv__signal_global_once_init	signal.c	/^void uv__signal_global_once_init(void) {$/;"	f
+uv__signal_handler	signal.c	/^static void uv__signal_handler(int signum) {$/;"	f	file:
+uv__signal_lock	signal.c	/^static int uv__signal_lock(void) {$/;"	f	file:
+uv__signal_lock_pipefd	signal.c	/^static int uv__signal_lock_pipefd[2];$/;"	v	file:
+uv__signal_loop_cleanup	signal.c	/^void uv__signal_loop_cleanup(uv_loop_t* loop) {$/;"	f
+uv__signal_loop_once_init	signal.c	/^static int uv__signal_loop_once_init(uv_loop_t* loop) {$/;"	f	file:
+uv__signal_msg_t	signal.c	/^} uv__signal_msg_t;$/;"	t	typeref:struct:__anon1	file:
+uv__signal_register_handler	signal.c	/^static int uv__signal_register_handler(int signum) {$/;"	f	file:
+uv__signal_stop	signal.c	/^static void uv__signal_stop(uv_signal_t* handle) {$/;"	f	file:
+uv__signal_tree	signal.c	/^static struct uv__signal_tree_s uv__signal_tree =$/;"	v	typeref:struct:uv__signal_tree_s	file:
+uv__signal_unlock	signal.c	/^static int uv__signal_unlock(void) {$/;"	f	file:
+uv__signal_unlock_and_unblock	signal.c	/^static void uv__signal_unlock_and_unblock(sigset_t* saved_sigmask) {$/;"	f	file:
+uv__signal_unregister_handler	signal.c	/^static void uv__signal_unregister_handler(int signum) {$/;"	f	file:
+uv__skip_lines	aix.c	/^static int uv__skip_lines(char **p, int n) {$/;"	f	file:
+uv__socket	core.c	/^int uv__socket(int domain, int type, int protocol) {$/;"	f
+uv__socket_sockopt	core.c	/^int uv__socket_sockopt(uv_handle_t* handle, int optname, int* value) {$/;"	f
+uv__stream_close	stream.c	/^void uv__stream_close(uv_stream_t* handle) {$/;"	f
+uv__stream_connect	stream.c	/^static void uv__stream_connect(uv_stream_t* stream) {$/;"	f	file:
+uv__stream_destroy	stream.c	/^void uv__stream_destroy(uv_stream_t* stream) {$/;"	f
+uv__stream_eof	stream.c	/^static void uv__stream_eof(uv_stream_t* stream, const uv_buf_t* buf) {$/;"	f	file:
+uv__stream_fd	internal.h	251;"	d
+uv__stream_fd	internal.h	253;"	d
+uv__stream_flush_write_queue	stream.c	/^void uv__stream_flush_write_queue(uv_stream_t* stream, int error) {$/;"	f
+uv__stream_init	stream.c	/^void uv__stream_init(uv_loop_t* loop,$/;"	f
+uv__stream_io	stream.c	/^static void uv__stream_io(uv_loop_t* loop, uv__io_t* w, unsigned int events) {$/;"	f	file:
+uv__stream_open	stream.c	/^int uv__stream_open(uv_stream_t* stream, int fd, int flags) {$/;"	f
+uv__stream_osx_cb_close	stream.c	/^static void uv__stream_osx_cb_close(uv_handle_t* async) {$/;"	f	file:
+uv__stream_osx_interrupt_select	stream.c	/^static void uv__stream_osx_interrupt_select(uv_stream_t* stream) {$/;"	f	file:
+uv__stream_osx_select	stream.c	/^static void uv__stream_osx_select(void* arg) {$/;"	f	file:
+uv__stream_osx_select_cb	stream.c	/^static void uv__stream_osx_select_cb(uv_async_t* handle) {$/;"	f	file:
+uv__stream_queue_fd	stream.c	/^static int uv__stream_queue_fd(uv_stream_t* stream, int fd) {$/;"	f	file:
+uv__stream_queued_fds_s	internal.h	/^struct uv__stream_queued_fds_s {$/;"	s
+uv__stream_queued_fds_t	internal.h	/^typedef struct uv__stream_queued_fds_s uv__stream_queued_fds_t;$/;"	t	typeref:struct:uv__stream_queued_fds_s
+uv__stream_recv_cmsg	stream.c	/^static int uv__stream_recv_cmsg(uv_stream_t* stream, struct msghdr* msg) {$/;"	f	file:
+uv__stream_select_s	stream.c	/^struct uv__stream_select_s {$/;"	s	file:
+uv__stream_select_t	stream.c	/^typedef struct uv__stream_select_s uv__stream_select_t;$/;"	t	typeref:struct:uv__stream_select_s	file:
+uv__stream_try_select	stream.c	/^int uv__stream_try_select(uv_stream_t* stream, int* fd) {$/;"	f
+uv__tcp_bind	tcp.c	/^int uv__tcp_bind(uv_tcp_t* tcp,$/;"	f
+uv__tcp_close	tcp.c	/^void uv__tcp_close(uv_tcp_t* handle) {$/;"	f
+uv__tcp_connect	tcp.c	/^int uv__tcp_connect(uv_connect_t* req,$/;"	f
+uv__tcp_keepalive	tcp.c	/^int uv__tcp_keepalive(int fd, int on, unsigned int delay) {$/;"	f
+uv__tcp_nodelay	tcp.c	/^int uv__tcp_nodelay(int fd, int on) {$/;"	f
+uv__thread_start	thread.c	/^static void* uv__thread_start(void *arg)$/;"	f	file:
+uv__timer_close	timer.c	/^void uv__timer_close(uv_timer_t* handle) {$/;"	f
+uv__to_stat	fs.c	/^static void uv__to_stat(struct stat* src, uv_stat_t* dst) {$/;"	f	file:
+uv__tty_make_raw	tty.c	/^static void uv__tty_make_raw(struct termios* tio) {$/;"	f	file:
+uv__udp_bind	udp.c	/^int uv__udp_bind(uv_udp_t* handle,$/;"	f
+uv__udp_close	udp.c	/^void uv__udp_close(uv_udp_t* handle) {$/;"	f
+uv__udp_finish_close	udp.c	/^void uv__udp_finish_close(uv_udp_t* handle) {$/;"	f
+uv__udp_io	udp.c	/^static void uv__udp_io(uv_loop_t* loop, uv__io_t* w, unsigned int revents) {$/;"	f	file:
+uv__udp_maybe_deferred_bind	udp.c	/^static int uv__udp_maybe_deferred_bind(uv_udp_t* handle,$/;"	f	file:
+uv__udp_recv_start	udp.c	/^int uv__udp_recv_start(uv_udp_t* handle,$/;"	f
+uv__udp_recv_stop	udp.c	/^int uv__udp_recv_stop(uv_udp_t* handle) {$/;"	f
+uv__udp_recvmsg	udp.c	/^static void uv__udp_recvmsg(uv_udp_t* handle) {$/;"	f	file:
+uv__udp_run_completed	udp.c	/^static void uv__udp_run_completed(uv_udp_t* handle) {$/;"	f	file:
+uv__udp_send	udp.c	/^int uv__udp_send(uv_udp_send_t* req,$/;"	f
+uv__udp_sendmsg	udp.c	/^static void uv__udp_sendmsg(uv_udp_t* handle) {$/;"	f	file:
+uv__udp_set_membership4	udp.c	/^static int uv__udp_set_membership4(uv_udp_t* handle,$/;"	f	file:
+uv__udp_set_membership6	udp.c	/^static int uv__udp_set_membership6(uv_udp_t* handle,$/;"	f	file:
+uv__udp_try_send	udp.c	/^int uv__udp_try_send(uv_udp_t* handle,$/;"	f
+uv__utimesat	linux-syscalls.c	/^int uv__utimesat(int dirfd,$/;"	f
+uv__write	stream.c	/^static void uv__write(uv_stream_t* stream) {$/;"	f	file:
+uv__write_callbacks	stream.c	/^static void uv__write_callbacks(uv_stream_t* stream) {$/;"	f	file:
+uv__write_int	process.c	/^static void uv__write_int(int fd, int val) {$/;"	f	file:
+uv__write_req_finish	stream.c	/^static void uv__write_req_finish(uv_write_t* req) {$/;"	f	file:
+uv__write_req_size	stream.c	/^static size_t uv__write_req_size(uv_write_t* req) {$/;"	f	file:
+uv_accept	stream.c	/^int uv_accept(uv_stream_t* server, uv_stream_t* client) {$/;"	f
+uv_async_init	async.c	/^int uv_async_init(uv_loop_t* loop, uv_async_t* handle, uv_async_cb async_cb) {$/;"	f
+uv_async_send	async.c	/^int uv_async_send(uv_async_t* handle) {$/;"	f
+uv_backend_fd	core.c	/^void *uv_backend_fd(const uv_loop_t* loop) {$/;"	f
+uv_backend_timeout	core.c	/^int uv_backend_timeout(const uv_loop_t* loop) {$/;"	f
+uv_barrier_destroy	thread.c	/^void uv_barrier_destroy(uv_barrier_t* barrier) {$/;"	f
+uv_barrier_init	thread.c	/^int uv_barrier_init(uv_barrier_t* barrier, unsigned int count) {$/;"	f
+uv_barrier_wait	thread.c	/^int uv_barrier_wait(uv_barrier_t* barrier) {$/;"	f
+uv_chdir	core.c	/^int uv_chdir(const char* dir) {$/;"	f
+uv_clocktype_t	internal.h	/^} uv_clocktype_t;$/;"	t	typeref:enum:__anon4
+uv_close	core.c	/^void uv_close(uv_handle_t* handle, uv_close_cb close_cb) {$/;"	f
+uv_cond_broadcast	thread.c	/^void uv_cond_broadcast(uv_cond_t* cond) {$/;"	f
+uv_cond_destroy	thread.c	/^void uv_cond_destroy(uv_cond_t* cond) {$/;"	f
+uv_cond_init	thread.c	/^int uv_cond_init(uv_cond_t* cond) {$/;"	f
+uv_cond_signal	thread.c	/^void uv_cond_signal(uv_cond_t* cond) {$/;"	f
+uv_cond_timedwait	thread.c	/^int uv_cond_timedwait(uv_cond_t* cond, uv_mutex_t* mutex, uint64_t timeout) {$/;"	f
+uv_cond_wait	thread.c	/^void uv_cond_wait(uv_cond_t* cond, uv_mutex_t* mutex) {$/;"	f
+uv_cpu_info	aix.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	darwin.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	freebsd.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	linux-core.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	netbsd.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	openbsd.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cpu_info	sunos.c	/^int uv_cpu_info(uv_cpu_info_t** cpu_infos, int* count) {$/;"	f
+uv_cwd	core.c	/^int uv_cwd(char* buffer, size_t* size) {$/;"	f
+uv_disable_stdio_inheritance	core.c	/^void uv_disable_stdio_inheritance(void) {$/;"	f
+uv_dlclose	dl.c	/^void uv_dlclose(uv_lib_t* lib) {$/;"	f
+uv_dlerror	dl.c	/^const char* uv_dlerror(const uv_lib_t* lib) {$/;"	f
+uv_dlopen	dl.c	/^int uv_dlopen(const char* filename, uv_lib_t* lib) {$/;"	f
+uv_dlsym	dl.c	/^int uv_dlsym(uv_lib_t* lib, const char* name, void** ptr) {$/;"	f
+uv_exepath	aix.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	darwin.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	freebsd.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	linux-core.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	netbsd.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	openbsd.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_exepath	sunos.c	/^int uv_exepath(char* buffer, size_t* size) {$/;"	f
+uv_fileno	core.c	/^int uv_fileno(const uv_handle_t* handle, uv_os_fd_t* fd) {$/;"	f
+uv_free_cpu_info	aix.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	darwin.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	freebsd.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	linux-core.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	netbsd.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	openbsd.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_cpu_info	sunos.c	/^void uv_free_cpu_info(uv_cpu_info_t* cpu_infos, int count) {$/;"	f
+uv_free_interface_addresses	aix.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_free_interface_addresses	darwin.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_free_interface_addresses	freebsd.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_free_interface_addresses	linux-core.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_free_interface_addresses	netbsd.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses, int count) {$/;"	f
+uv_free_interface_addresses	openbsd.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_free_interface_addresses	sunos.c	/^void uv_free_interface_addresses(uv_interface_address_t* addresses,$/;"	f
+uv_freeaddrinfo	getaddrinfo.c	/^void uv_freeaddrinfo(struct addrinfo* ai) {$/;"	f
+uv_fs_access	fs.c	/^int uv_fs_access(uv_loop_t* loop,$/;"	f
+uv_fs_chmod	fs.c	/^int uv_fs_chmod(uv_loop_t* loop,$/;"	f
+uv_fs_chown	fs.c	/^int uv_fs_chown(uv_loop_t* loop,$/;"	f
+uv_fs_close	fs.c	/^int uv_fs_close(uv_loop_t* loop, uv_fs_t* req, uv_file file, uv_fs_cb cb) {$/;"	f
+uv_fs_event_init	aix.c	/^int uv_fs_event_init(uv_loop_t* loop, uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_init	kqueue.c	/^int uv_fs_event_init(uv_loop_t* loop, uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_init	linux-inotify.c	/^int uv_fs_event_init(uv_loop_t* loop, uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_init	sunos.c	/^int uv_fs_event_init(uv_loop_t* loop, uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_start	aix.c	/^int uv_fs_event_start(uv_fs_event_t* handle,$/;"	f
+uv_fs_event_start	kqueue.c	/^int uv_fs_event_start(uv_fs_event_t* handle,$/;"	f
+uv_fs_event_start	linux-inotify.c	/^int uv_fs_event_start(uv_fs_event_t* handle,$/;"	f
+uv_fs_event_start	sunos.c	/^int uv_fs_event_start(uv_fs_event_t* handle,$/;"	f
+uv_fs_event_stop	aix.c	/^int uv_fs_event_stop(uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_stop	kqueue.c	/^int uv_fs_event_stop(uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_stop	linux-inotify.c	/^int uv_fs_event_stop(uv_fs_event_t* handle) {$/;"	f
+uv_fs_event_stop	sunos.c	/^int uv_fs_event_stop(uv_fs_event_t* handle) {$/;"	f
+uv_fs_fchmod	fs.c	/^int uv_fs_fchmod(uv_loop_t* loop,$/;"	f
+uv_fs_fchown	fs.c	/^int uv_fs_fchown(uv_loop_t* loop,$/;"	f
+uv_fs_fdatasync	fs.c	/^int uv_fs_fdatasync(uv_loop_t* loop, uv_fs_t* req, uv_file file, uv_fs_cb cb) {$/;"	f
+uv_fs_fstat	fs.c	/^int uv_fs_fstat(uv_loop_t* loop, uv_fs_t* req, uv_file file, uv_fs_cb cb) {$/;"	f
+uv_fs_fsync	fs.c	/^int uv_fs_fsync(uv_loop_t* loop, uv_fs_t* req, uv_file file, uv_fs_cb cb) {$/;"	f
+uv_fs_ftruncate	fs.c	/^int uv_fs_ftruncate(uv_loop_t* loop,$/;"	f
+uv_fs_futime	fs.c	/^int uv_fs_futime(uv_loop_t* loop,$/;"	f
+uv_fs_link	fs.c	/^int uv_fs_link(uv_loop_t* loop,$/;"	f
+uv_fs_lstat	fs.c	/^int uv_fs_lstat(uv_loop_t* loop, uv_fs_t* req, const char* path, uv_fs_cb cb) {$/;"	f
+uv_fs_mkdir	fs.c	/^int uv_fs_mkdir(uv_loop_t* loop,$/;"	f
+uv_fs_mkdtemp	fs.c	/^int uv_fs_mkdtemp(uv_loop_t* loop,$/;"	f
+uv_fs_open	fs.c	/^int uv_fs_open(uv_loop_t* loop,$/;"	f
+uv_fs_read	fs.c	/^int uv_fs_read(uv_loop_t* loop, uv_fs_t* req,$/;"	f
+uv_fs_readlink	fs.c	/^int uv_fs_readlink(uv_loop_t* loop,$/;"	f
+uv_fs_rename	fs.c	/^int uv_fs_rename(uv_loop_t* loop,$/;"	f
+uv_fs_req_cleanup	fs.c	/^void uv_fs_req_cleanup(uv_fs_t* req) {$/;"	f
+uv_fs_rmdir	fs.c	/^int uv_fs_rmdir(uv_loop_t* loop, uv_fs_t* req, const char* path, uv_fs_cb cb) {$/;"	f
+uv_fs_scandir	fs.c	/^int uv_fs_scandir(uv_loop_t* loop,$/;"	f
+uv_fs_sendfile	fs.c	/^int uv_fs_sendfile(uv_loop_t* loop,$/;"	f
+uv_fs_stat	fs.c	/^int uv_fs_stat(uv_loop_t* loop, uv_fs_t* req, const char* path, uv_fs_cb cb) {$/;"	f
+uv_fs_symlink	fs.c	/^int uv_fs_symlink(uv_loop_t* loop,$/;"	f
+uv_fs_unlink	fs.c	/^int uv_fs_unlink(uv_loop_t* loop, uv_fs_t* req, const char* path, uv_fs_cb cb) {$/;"	f
+uv_fs_utime	fs.c	/^int uv_fs_utime(uv_loop_t* loop,$/;"	f
+uv_fs_write	fs.c	/^int uv_fs_write(uv_loop_t* loop,$/;"	f
+uv_get_free_memory	aix.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	darwin.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	freebsd.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	linux-core.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	netbsd.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	openbsd.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_free_memory	sunos.c	/^uint64_t uv_get_free_memory(void) {$/;"	f
+uv_get_process_title	aix.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_process_title	freebsd.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_process_title	netbsd.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_process_title	openbsd.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_process_title	proctitle.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_process_title	sunos.c	/^int uv_get_process_title(char* buffer, size_t size) {$/;"	f
+uv_get_total_memory	aix.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	darwin.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	freebsd.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	linux-core.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	netbsd.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	openbsd.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_get_total_memory	sunos.c	/^uint64_t uv_get_total_memory(void) {$/;"	f
+uv_getaddrinfo	getaddrinfo.c	/^int uv_getaddrinfo(uv_loop_t* loop,$/;"	f
+uv_getnameinfo	getnameinfo.c	/^int uv_getnameinfo(uv_loop_t* loop,$/;"	f
+uv_getrusage	core.c	/^int uv_getrusage(uv_rusage_t* rusage) {$/;"	f
+uv_guess_handle	tty.c	/^uv_handle_type uv_guess_handle(uv_file file) {$/;"	f
+uv_hrtime	core.c	/^uint64_t uv_hrtime(void) {$/;"	f
+uv_interface_addresses	aix.c	/^int uv_interface_addresses(uv_interface_address_t** addresses,$/;"	f
+uv_interface_addresses	darwin.c	/^int uv_interface_addresses(uv_interface_address_t** addresses, int* count) {$/;"	f
+uv_interface_addresses	freebsd.c	/^int uv_interface_addresses(uv_interface_address_t** addresses, int* count) {$/;"	f
+uv_interface_addresses	linux-core.c	/^int uv_interface_addresses(uv_interface_address_t** addresses,$/;"	f
+uv_interface_addresses	netbsd.c	/^int uv_interface_addresses(uv_interface_address_t** addresses, int* count) {$/;"	f
+uv_interface_addresses	openbsd.c	/^int uv_interface_addresses(uv_interface_address_t** addresses,$/;"	f
+uv_interface_addresses	sunos.c	/^int uv_interface_addresses(uv_interface_address_t** addresses, int* count) {$/;"	f
+uv_is_active	core.c	/^int uv_is_active(const uv_handle_t* handle) {$/;"	f
+uv_is_closing	core.c	/^int uv_is_closing(const uv_handle_t* handle) {$/;"	f
+uv_is_readable	stream.c	/^int uv_is_readable(const uv_stream_t* stream) {$/;"	f
+uv_is_writable	stream.c	/^int uv_is_writable(const uv_stream_t* stream) {$/;"	f
+uv_key_create	thread.c	/^int uv_key_create(uv_key_t* key) {$/;"	f
+uv_key_delete	thread.c	/^void uv_key_delete(uv_key_t* key) {$/;"	f
+uv_key_get	thread.c	/^void* uv_key_get(uv_key_t* key) {$/;"	f
+uv_key_set	thread.c	/^void uv_key_set(uv_key_t* key, void* value) {$/;"	f
+uv_kill	process.c	/^int uv_kill(int pid, int signum) {$/;"	f
+uv_listen	stream.c	/^int uv_listen(uv_stream_t* stream, int backlog, uv_connection_cb cb) {$/;"	f
+uv_loadavg	aix.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	darwin.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	freebsd.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	linux-core.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	netbsd.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	openbsd.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loadavg	sunos.c	/^void uv_loadavg(double avg[3]) {$/;"	f
+uv_loop_alive	core.c	/^int uv_loop_alive(const uv_loop_t* loop) {$/;"	f
+uv_loop_init	loop.c	/^int uv_loop_init(uv_loop_t* loop) {$/;"	f
+uv_mutex_destroy	thread.c	/^void uv_mutex_destroy(uv_mutex_t* mutex) {$/;"	f
+uv_mutex_init	thread.c	/^int uv_mutex_init(uv_mutex_t* mutex) {$/;"	f
+uv_mutex_lock	thread.c	/^void uv_mutex_lock(uv_mutex_t* mutex) {$/;"	f
+uv_mutex_trylock	thread.c	/^int uv_mutex_trylock(uv_mutex_t* mutex) {$/;"	f
+uv_mutex_unlock	thread.c	/^void uv_mutex_unlock(uv_mutex_t* mutex) {$/;"	f
+uv_once	thread.c	/^void uv_once(uv_once_t* guard, void (*callback)(void)) {$/;"	f
+uv_os_homedir	core.c	/^int uv_os_homedir(char* buffer, size_t* size) {$/;"	f
+uv_pipe_bind	pipe.c	/^int uv_pipe_bind(uv_pipe_t* handle, const char* name) {$/;"	f
+uv_pipe_connect	pipe.c	/^void uv_pipe_connect(uv_connect_t* req,$/;"	f
+uv_pipe_getpeername	pipe.c	/^int uv_pipe_getpeername(const uv_pipe_t* handle, char* buffer, size_t* size) {$/;"	f
+uv_pipe_getsockname	pipe.c	/^int uv_pipe_getsockname(const uv_pipe_t* handle, char* buffer, size_t* size) {$/;"	f
+uv_pipe_init	pipe.c	/^int uv_pipe_init(uv_loop_t* loop, uv_pipe_t* handle, int ipc) {$/;"	f
+uv_pipe_listen	pipe.c	/^int uv_pipe_listen(uv_pipe_t* handle, int backlog, uv_connection_cb cb) {$/;"	f
+uv_pipe_open	pipe.c	/^int uv_pipe_open(uv_pipe_t* handle, uv_file fd) {$/;"	f
+uv_pipe_pending_count	pipe.c	/^int uv_pipe_pending_count(uv_pipe_t* handle) {$/;"	f
+uv_pipe_pending_instances	pipe.c	/^void uv_pipe_pending_instances(uv_pipe_t* handle, int count) {$/;"	f
+uv_pipe_pending_type	pipe.c	/^uv_handle_type uv_pipe_pending_type(uv_pipe_t* handle) {$/;"	f
+uv_poll_init	poll.c	/^int uv_poll_init(uv_loop_t* loop, uv_poll_t* handle, int fd) {$/;"	f
+uv_poll_init_socket	poll.c	/^int uv_poll_init_socket(uv_loop_t* loop, uv_poll_t* handle,$/;"	f
+uv_poll_start	poll.c	/^int uv_poll_start(uv_poll_t* handle, int pevents, uv_poll_cb poll_cb) {$/;"	f
+uv_poll_stop	poll.c	/^int uv_poll_stop(uv_poll_t* handle) {$/;"	f
+uv_process_kill	process.c	/^int uv_process_kill(uv_process_t* process, int signum) {$/;"	f
+uv_read_start	stream.c	/^int uv_read_start(uv_stream_t* stream,$/;"	f
+uv_read_stop	stream.c	/^int uv_read_stop(uv_stream_t* stream) {$/;"	f
+uv_resident_set_memory	aix.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	darwin.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	freebsd.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	linux-core.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	netbsd.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	openbsd.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_resident_set_memory	sunos.c	/^int uv_resident_set_memory(size_t* rss) {$/;"	f
+uv_run	core.c	/^int uv_run(uv_loop_t* loop, uv_run_mode mode) {$/;"	f
+uv_rwlock_destroy	thread.c	/^void uv_rwlock_destroy(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_init	thread.c	/^int uv_rwlock_init(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_rdlock	thread.c	/^void uv_rwlock_rdlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_rdunlock	thread.c	/^void uv_rwlock_rdunlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_tryrdlock	thread.c	/^int uv_rwlock_tryrdlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_trywrlock	thread.c	/^int uv_rwlock_trywrlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_wrlock	thread.c	/^void uv_rwlock_wrlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_rwlock_wrunlock	thread.c	/^void uv_rwlock_wrunlock(uv_rwlock_t* rwlock) {$/;"	f
+uv_sem_destroy	thread.c	/^void uv_sem_destroy(uv_sem_t* sem) {$/;"	f
+uv_sem_init	thread.c	/^int uv_sem_init(uv_sem_t* sem, unsigned int value) {$/;"	f
+uv_sem_post	thread.c	/^void uv_sem_post(uv_sem_t* sem) {$/;"	f
+uv_sem_trywait	thread.c	/^int uv_sem_trywait(uv_sem_t* sem) {$/;"	f
+uv_sem_wait	thread.c	/^void uv_sem_wait(uv_sem_t* sem) {$/;"	f
+uv_set_process_title	aix.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_set_process_title	freebsd.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_set_process_title	netbsd.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_set_process_title	openbsd.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_set_process_title	proctitle.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_set_process_title	sunos.c	/^int uv_set_process_title(const char* title) {$/;"	f
+uv_setup_args	aix.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_setup_args	freebsd.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_setup_args	netbsd.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_setup_args	openbsd.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_setup_args	proctitle.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_setup_args	sunos.c	/^char** uv_setup_args(int argc, char** argv) {$/;"	f
+uv_shutdown	stream.c	/^int uv_shutdown(uv_shutdown_t* req, uv_stream_t* stream, uv_shutdown_cb cb) {$/;"	f
+uv_signal_init	signal.c	/^int uv_signal_init(uv_loop_t* loop, uv_signal_t* handle) {$/;"	f
+uv_signal_start	signal.c	/^int uv_signal_start(uv_signal_t* handle, uv_signal_cb signal_cb, int signum) {$/;"	f
+uv_signal_stop	signal.c	/^int uv_signal_stop(uv_signal_t* handle) {$/;"	f
+uv_spawn	process.c	/^int uv_spawn(uv_loop_t* loop,$/;"	f
+uv_spinlock_t	spinlock.h	/^} uv_spinlock_t;$/;"	t	typeref:struct:__anon5
+uv_stream_set_blocking	stream.c	/^int uv_stream_set_blocking(uv_stream_t* handle, int blocking) {$/;"	f
+uv_tcp_getpeername	tcp.c	/^int uv_tcp_getpeername(const uv_tcp_t* handle,$/;"	f
+uv_tcp_getsockname	tcp.c	/^int uv_tcp_getsockname(const uv_tcp_t* handle,$/;"	f
+uv_tcp_init	tcp.c	/^int uv_tcp_init(uv_loop_t* loop, uv_tcp_t* tcp) {$/;"	f
+uv_tcp_init_ex	tcp.c	/^int uv_tcp_init_ex(uv_loop_t* loop, uv_tcp_t* tcp, unsigned int flags) {$/;"	f
+uv_tcp_keepalive	tcp.c	/^int uv_tcp_keepalive(uv_tcp_t* handle, int on, unsigned int delay) {$/;"	f
+uv_tcp_listen	tcp.c	/^int uv_tcp_listen(uv_tcp_t* tcp, int backlog, uv_connection_cb cb) {$/;"	f
+uv_tcp_nodelay	tcp.c	/^int uv_tcp_nodelay(uv_tcp_t* handle, int on) {$/;"	f
+uv_tcp_open	tcp.c	/^int uv_tcp_open(uv_tcp_t* handle, uv_os_sock_t sock) {$/;"	f
+uv_tcp_simultaneous_accepts	tcp.c	/^int uv_tcp_simultaneous_accepts(uv_tcp_t* handle, int enable) {$/;"	f
+uv_thread_create	thread.c	/^int uv_thread_create(uv_thread_t *tid, void (*entry)(void *arg), void *arg) {$/;"	f
+uv_thread_equal	thread.c	/^int uv_thread_equal(const uv_thread_t* t1, const uv_thread_t* t2) {$/;"	f
+uv_thread_join	thread.c	/^int uv_thread_join(uv_thread_t *tid) {$/;"	f
+uv_thread_self	thread.c	/^uv_thread_t uv_thread_self(void) {$/;"	f
+uv_timer_again	timer.c	/^int uv_timer_again(uv_timer_t* handle) {$/;"	f
+uv_timer_get_repeat	timer.c	/^uint64_t uv_timer_get_repeat(const uv_timer_t* handle) {$/;"	f
+uv_timer_init	timer.c	/^int uv_timer_init(uv_loop_t* loop, uv_timer_t* handle) {$/;"	f
+uv_timer_set_repeat	timer.c	/^void uv_timer_set_repeat(uv_timer_t* handle, uint64_t repeat) {$/;"	f
+uv_timer_start	timer.c	/^int uv_timer_start(uv_timer_t* handle,$/;"	f
+uv_timer_stop	timer.c	/^int uv_timer_stop(uv_timer_t* handle) {$/;"	f
+uv_try_write	stream.c	/^int uv_try_write(uv_stream_t* stream,$/;"	f
+uv_try_write_cb	stream.c	/^void uv_try_write_cb(uv_write_t* req, int status) {$/;"	f
+uv_tty_get_winsize	tty.c	/^int uv_tty_get_winsize(uv_tty_t* tty, int* width, int* height) {$/;"	f
+uv_tty_init	tty.c	/^int uv_tty_init(uv_loop_t* loop, uv_tty_t* tty, int fd, int readable) {$/;"	f
+uv_tty_reset_mode	tty.c	/^int uv_tty_reset_mode(void) {$/;"	f
+uv_tty_set_mode	tty.c	/^int uv_tty_set_mode(uv_tty_t* tty, uv_tty_mode_t mode) {$/;"	f
+uv_udp_getsockname	udp.c	/^int uv_udp_getsockname(const uv_udp_t* handle,$/;"	f
+uv_udp_init	udp.c	/^int uv_udp_init(uv_loop_t* loop, uv_udp_t* handle) {$/;"	f
+uv_udp_init_ex	udp.c	/^int uv_udp_init_ex(uv_loop_t* loop, uv_udp_t* handle, unsigned int flags) {$/;"	f
+uv_udp_open	udp.c	/^int uv_udp_open(uv_udp_t* handle, uv_os_sock_t sock) {$/;"	f
+uv_udp_set_broadcast	udp.c	/^int uv_udp_set_broadcast(uv_udp_t* handle, int on) {$/;"	f
+uv_udp_set_membership	udp.c	/^int uv_udp_set_membership(uv_udp_t* handle,$/;"	f
+uv_udp_set_multicast_interface	udp.c	/^int uv_udp_set_multicast_interface(uv_udp_t* handle, const char* interface_addr) {$/;"	f
+uv_udp_set_multicast_loop	udp.c	/^int uv_udp_set_multicast_loop(uv_udp_t* handle, int on) {$/;"	f
+uv_udp_set_multicast_ttl	udp.c	/^int uv_udp_set_multicast_ttl(uv_udp_t* handle, int ttl) {$/;"	f
+uv_udp_set_ttl	udp.c	/^int uv_udp_set_ttl(uv_udp_t* handle, int ttl) {$/;"	f
+uv_update_time	core.c	/^void uv_update_time(uv_loop_t* loop) {$/;"	f
+uv_uptime	aix.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	darwin.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	freebsd.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	linux-core.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	netbsd.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	openbsd.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_uptime	sunos.c	/^int uv_uptime(double* uptime) {$/;"	f
+uv_write	stream.c	/^int uv_write(uv_write_t* req,$/;"	f
+uv_write2	stream.c	/^int uv_write2(uv_write_t* req,$/;"	f
+watcher_list	linux-inotify.c	/^struct watcher_list {$/;"	s	file:
+watcher_root	linux-inotify.c	/^struct watcher_root {$/;"	s	file:
+watchers	linux-inotify.c	/^  QUEUE watchers;$/;"	m	struct:watcher_list	file:
+wd	linux-inotify.c	/^  int wd;$/;"	m	struct:watcher_list	file:
+wd	linux-syscalls.h	/^  int32_t wd;$/;"	m	struct:uv__inotify_event

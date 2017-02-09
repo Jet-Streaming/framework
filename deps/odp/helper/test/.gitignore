@@ -1,0 +1,7 @@
+*.trs
+*.log
+chksum
+parse
+process
+table
+thread

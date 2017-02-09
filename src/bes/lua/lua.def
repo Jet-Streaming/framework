@@ -1,0 +1,50 @@
+LIBRARY   lua51
+EXPORTS
+    lua_settop
+	lua_gettop
+	lua_type
+	lua_tolstring
+	lua_touserdata
+	lua_pushvalue
+	lua_pushnil
+	lua_pushnumber
+	lua_pushstring
+	lua_pushcclosure
+	lua_pushinteger
+	lua_pushlstring
+	lua_getfield
+	lua_newuserdata
+	lua_getmetatable
+	lua_settable
+	lua_setfield
+	lua_setmetatable
+	lua_pcall
+	lua_yield
+	lua_status
+	lua_gc
+	lua_rawget
+	lua_rawgeti
+	lua_createtable
+	lua_rawset
+	lua_next
+	lua_objlen
+	
+	luaL_register
+	luaL_checklstring
+	luaL_checkinteger
+	luaL_newmetatable
+	luaL_checkudata
+	luaL_ref
+	luaL_optlstring
+	luaL_optinteger
+	luaL_checktype
+	
+	jbe_lua51
+    jlua_ctx
+	
+	jlthread_resume
+	jlthread_yield
+	jlthread_set_cleanup
+	
+	jlelement_class
+	jlelement_push_listener
